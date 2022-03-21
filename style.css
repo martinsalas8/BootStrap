@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Questrial&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/*
+------------Menu--------------
+*/
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form > button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*
+------------Menu--------------
+*/
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+.carousel-inner1{
+    max-height: 39rem;
+    
+    
+}
+
+col-md-6 {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 39rem
+}
+
+
+
+/*
+------------Media Queries--------------
+*/
+
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+    .servicios-fila{
+        width: 100% !important;
+        text-align: center; 
+    }
+}
+
+@media (max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+}
+
+
+
+
+/*
+------------Media Queries--------------
+*/
